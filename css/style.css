@@ -1,0 +1,195 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/5f/00/96/5f009674bb012f8e26ea43dad4abdd00.gif");
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Cambia esto al color de fondo de tu header */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+#header-select{
+    color:white;
+}
+
+#header-select:hover{
+    background-color:rgba(119, 108, 108, 0.479);
+    border-radius: 15%;
+}
+
+#titulo{
+    font-family: fantasy;
+    font-size: 100%;
+}
+
+#titulo:hover{
+    color:gray
+}
+
+#select-user{
+    background-color: black;
+    border-color: gray;
+}
+#select-user a{
+    color:white;
+}
+
+#select-user_group:hover{
+    background-color: gray;
+}
+
+#select-user_Coordinador:hover{
+    background-color: blue;
+}
+
+#frase{
+    font-family: "Courier New", monospace;
+    font-size: 70%;
+}
+#fraseTitutlo{
+    font-family: sans-serif;
+    font-size: 90%;
+    font-style: oblique;
+    
+}
+
+
+#carrusel {
+    
+
+    border-color: red;
+    max-width: 100vw; /* Usamos viewport width para asegurarn los de que el carrusel no sea más ancho que la pantalla */
+    overflow: hidden; /* Esto evitará que las imágenes se salgan del contenedor */
+    max-height: 50vw; /* recorta tamaño de vertical */
+}
+  
+.carousel-item img {
+
+height: auto; 
+
+}
+
+#centrar_text{
+    font-size: 50pt;
+    font: italic;
+    margin-left: 40%;
+    z-index: 1;
+    position:absolute; 
+    color:white;
+
+}
+
+.NameSinFormat{
+    text-decoration: none;
+    color:brown;
+    font-style: italic;
+
+}
+
+#primerCuadro{
+    background-image: url("https://i.giphy.com/3o72FkTQbDO8vREFhe.gif");
+
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+
+    margin: 0;
+
+    position: relative;
+    top: -50px; /* Ajusta según sea necesario */
+}
+
+
+
+.center_div{
+    text-align: center;
+}
+
+
+
+
+
+
+.imagen-Team-contact_firstTeam:hover{
+
+    background-image: url("https://i.redd.it/w7vc9boacfgb1.gif");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 200%;
+
+    box-shadow:
+      inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+      0 0 0 2px white,
+      0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
+}
+
+
+
+.imagen-Team-contact_secondTeam{
+    background-image: url("https://i.pinimg.com/originals/33/7a/f3/337af398877b856f25624144420a5230.gif");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 180%;
+
+    /*circunferencia :v*/
+    height: 15vh; 
+    width: 15vh; 
+    border-radius: 50%;
+
+}
+
+#img-first-inf:hover{
+    width: 68vh;
+    height: 68vh;
+    border-radius:50%;
+    box-shadow:
+      inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+      0 0 0 2px white;
+
+}
+
+#img-second-inf{
+    height: 50vh; 
+    width: 50vh; 
+    border-radius: 100%;
+}
+
+#img-second-inf:hover{
+    width:52vh;
+    height: 52vh;
+    border-radius: 50%;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+    0 0 0 2px white;
+}
+
+.MasInfo{
+    text-decoration: none;
+    color:brown;
+    font-style: italic;
+}
+
+
+.modulo_lunar{
+    text-align: center;
+}
+
+.eagle{
+    color: white;
+    text-align: center;
+}
+
+.textomodulo{
+    text-align: center;
+    color: white;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.modulolunar{
+    text-align: center;
+}

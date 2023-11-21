@@ -1,0 +1,61 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/5f/00/96/5f009674bb012f8e26ea43dad4abdd00.gif");
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff; /* Cambia esto al color de fondo de tu header */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+#header-select{
+    color:white;
+}
+
+#header-select:hover{
+    background-color:rgba(119, 108, 108, 0.479);
+    border-radius: 15%;
+}
+
+#titulo{
+    font-family: fantasy;
+    font-size: 100%;
+}
+
+#titulo:hover{
+    color:gray
+}
+
+#select-user{
+    background-color: black;
+    border-color: gray;
+}
+#select-user a{
+    color:white;
+}
+
+#select-user_group:hover{
+    background-color: gray;
+}
+
+#select-user_Coordinador:hover{
+    background-color: blue;
+}
+
+#frase{
+    font-family: "Courier New", monospace;
+    font-size: 70%;
+}
+#fraseTitutlo{
+    font-family: sans-serif;
+    font-size: 90%;
+    font-style: oblique;
+}
+
+*{
+    color: white;
+}
+
